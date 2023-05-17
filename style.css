@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+:root {
+    --negro: #252525;
+    --amarillo: #FFA400;
+    --rojo-cherry: #FC2933;
+    --blanco: #FFFFFF;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style-type: none;
+background-color: var(--negro);
+}
+
+header {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;  
+    position:sticky ;
+    position: -webkit-sticky;
+    top: 0; 
+    }
+
+
+.logo_navbar{
+    height: 100px;
+    justify-content: start;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.navbar, .navbar_list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 6px;
+}
+
+.navbar_list li {
+align-items: flex-end;
+color: transparent;
+background: linear-gradient(to left,#FFA400 ,#FC2933 );
+-webkit-background-clip: text;
+font-size: 25px;
+font-family: bree Serif;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+    padding: 10px;
+    font-family: bree Serif;
+    font-size: 35px;
+    background: linear-gradient(to left,#FFA400 ,#FC2933 );
+    -webkit-background-clip: text;
+}
+
+#main-container {
+    margin-top: 50px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.card-img img {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 10px;
+    align-items: center;
+    background: linear-gradient(to right ,#FFA400 ,#FC2933 );
+    border-radius: 1rem;
+}
+
+
+.list-container {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-family: bree Serif;
+
+}
+
+.list-container li {
+    color: transparent;
+    background: linear-gradient(to bottom right,#FFA400 ,#FC2933 );
+    -webkit-background-clip: text;
+}
+
+.pizza-seleccion {
+    color: transparent;
+    background: linear-gradient(to bottom right,#FFA400 ,#FC2933 );
+    -webkit-background-clip: text; 
+    align-items: center;
+    justify-content: center;
+    font-family: bree Serif;
+    display: flex;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+#form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+}
