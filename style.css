@@ -73,7 +73,24 @@ font-family: bree Serif;
     
 }
 
-.card-img img {
+.card {
+    width: 300px;
+    border-radius: 1rem;
+    padding: 10px;
+    background-color: linear-gradient(to right ,#FFA400 ,#FC2933 );
+}
+
+.card-pizza h2 {
+    font-size: 30px;
+    font-family: bree Serif;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    background: linear-gradient(to right ,#FFA400 ,#FC2933 ) ;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.card-pizza img {
     width: 350px;
     display: flex;
     flex-direction: column;
@@ -81,7 +98,8 @@ font-family: bree Serif;
     padding: 30px 10px;
     align-items: center;
     background: linear-gradient(to right ,#FFA400 ,#FC2933 );
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
+    border-radius: 0rem 0rem 1rem 1rem;
 }
 
 
@@ -117,4 +135,26 @@ font-family: bree Serif;
     justify-content: center;
     display: flex;
     padding-top: 10px;
+}
+
+#imgChange {
+ background: linear-gradient(to bottom right,#FFA400 ,#FC2933 );
+ width: 65px;
+ font-size: 20px;
+ font-family: bree Serif;
+ color:transparent;
+ -webkit-background-clip: text; 
+ border-radius: 5px;
+ border-color: #a2a2a2;
+}
+
+#form {
+    display: flex;
+    gap: 5px;
+}
+
+#img {
+    border-radius: 5px;
+    width: 135px;
+    background-color: white;
 }

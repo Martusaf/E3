@@ -45,3 +45,45 @@ const pizzas = [
     imagen: "./img/anana.png",
   },
 ];
+
+
+// const theButton = document.getElementById("theButton");
+
+//theButton.addEventListener("click",()=> {
+  //console.log("Este es tu pedido");
+//})
+
+//const imagen = document.getElementById("img");
+
+// imagen.setAttribute("src", "./img/4quesos.png");
+// imagen.setAttribute("alt", "Imagen de 4 quesos");
+ 
+const pizzaContainer = document.querySelector (".card-pizza");
+
+const templateCardPizza = (pizzas) => {
+  const {id, nombre, precio, ingredientes, imagen} = pizzas;
+
+  return`
+
+    <div class="card-pizza">
+      <h2>${nombre}</h2>
+        <img alt=${nombre} src=${img}>
+    <p>${precio}</p>
+    <p>${ingredientes.join(", ")}</p>
+    <button>Comprar</button>
+
+  `
+
+}
+
+const renderPizza = (pizzas) => {
+pizzaContainer.innerHTML = pizzas
+
+}
+
+
+const init = () => {
+renderPizza(pizzas);
+};
+
+init ();
