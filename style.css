@@ -47,7 +47,7 @@ align-items: flex-end;
 color: transparent;
 background: linear-gradient(to left,#FFA400 ,#FC2933 );
 -webkit-background-clip: text;
-font-size: 25px;
+font-size: 20px;
 font-family: bree Serif;
 }
 
@@ -108,6 +108,7 @@ font-family: bree Serif;
     gap: 10px;
     justify-content: center;
     font-family: bree Serif;
+    font-size: 20px;
 
 }
 
@@ -125,35 +126,40 @@ font-family: bree Serif;
     justify-content: center;
     font-family: bree Serif;
     display: flex;
-    font-size: 25px;
+    font-size: 30px;
     padding-top: 50px;
 }
 
-#form {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding-top: 10px;
-}
 
-#imgChange {
+.botoncito {
  background: linear-gradient(to bottom right,#FFA400 ,#FC2933 );
- width: 65px;
- font-size: 20px;
+ width: 70px;
+ font-size: 12px;
  font-family: bree Serif;
  color:transparent;
  -webkit-background-clip: text; 
  border-radius: 5px;
  border-color: #a2a2a2;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+ padding: 5px;
 }
+
+.botoncito:hover {
+background: linear-gradient(to bottom right,#FC2933 ,#FFA400 );
+color: white;}
 
 #form {
     display: flex;
     gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
 }
 
-#img {
-    border-radius: 5px;
-    width: 135px;
+#selection {
+    width: 72px ;
     background-color: white;
 }
