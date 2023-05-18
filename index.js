@@ -73,7 +73,6 @@ const templateCardPizza = (pizzas) => {
     <button>Comprar</button>
 
   `
-
 }
 
 const renderPizza = (pizzas) => {
@@ -82,8 +81,8 @@ pizzaContainer.innerHTML = pizzas
 }
 
 
-const init = () => {
-renderPizza(pizzas);
-};
+//const init = () => {
+//renderPizza(pizzas);
 
-init ();
+
+// init ();
