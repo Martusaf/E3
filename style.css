@@ -55,12 +55,11 @@ font-family: bree Serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: transparent;
+    color: whitesmoke;
+    font-weight: 400;
     padding: 10px;
     font-family: bree Serif;
     font-size: 35px;
-    background: linear-gradient(to left,#FFA400 ,#FC2933 );
-    -webkit-background-clip: text;
 }
 
 #main-container {
